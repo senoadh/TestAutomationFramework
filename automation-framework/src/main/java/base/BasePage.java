@@ -1,3 +1,4 @@
+package base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -21,8 +22,7 @@ public class BasePage {
     }
 
     public Duration toDuration(int second) {
-        Duration duration = Duration.ofSeconds(second);
-        return duration;
+        return Duration.ofSeconds(second);
     }
 
     protected void waitForElementToAppear(By locator) {

@@ -1,3 +1,5 @@
+package base;
+
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +14,7 @@ public class BaseTest {
     @BeforeSuite
     public void beforeSuite() {
         System.setProperty("headless", "false");
+        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
         String headless = System.getProperty("headless");
 
         ChromeDriverManager.chromedriver();
@@ -22,6 +25,7 @@ public class BaseTest {
         } else {
             driver = new ChromeDriver();
         }
+        driver.get("http://www.facebook.com");
     }
 
     @AfterSuite

@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="automation-framework" />
         <module name="automation-domain" />
         <module name="automation-page-objects" />
         <module name="automation-tests" />
-        <module name="automation-framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="automation-domain" target="1.8" />
+      <module name="automation-framework" target="1.8" />
+      <module name="automation-page-objects" target="1.8" />
+      <module name="automation-tests" target="1.8" />
+      <module name="TestAutomationFramework" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

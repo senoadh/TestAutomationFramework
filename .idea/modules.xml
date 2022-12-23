@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestAutomationFramework.iml" filepath="$PROJECT_DIR$/TestAutomationFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automation-domain/automation-domain.iml" filepath="$PROJECT_DIR$/automation-domain/automation-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automation-framework/automation-framework.iml" filepath="$PROJECT_DIR$/automation-framework/automation-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automation-page-objects/automation-page-objects.iml" filepath="$PROJECT_DIR$/automation-page-objects/automation-page-objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automation-tests/automation-tests.iml" filepath="$PROJECT_DIR$/automation-tests/automation-tests.iml" />
+    </modules>
+  </component>
+</project>
