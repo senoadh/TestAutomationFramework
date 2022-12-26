@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69602201-b9cc-4033-b9f5-958032c2b5bb" name="Default Changelist" comment="Update Home page script">
-      <change afterPath="$PROJECT_DIR$/automation-tests/testng.xml" afterDir="false" />
+    <list default="true" id="69602201-b9cc-4033-b9f5-958032c2b5bb" name="Default Changelist" comment="Add automation script">
+      <change afterPath="$PROJECT_DIR$/automation-tests/browser-driver/chromedriver-windows.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation-framework/target/classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/target/classes/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userHomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userHomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userHomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userHomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userLoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +46,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/automation-framework/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/automation-tests/browser-driver" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Seno\IdeaProjects\TestAutomationFramewok\automation-tests\browser-driver" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/automation-tests" />
       <recent name="$PROJECT_DIR$/browser-driver" />
@@ -113,7 +125,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -147,70 +159,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add automation script" />
     <MESSAGE value="Add chrome driver" />
     <MESSAGE value="Update Home page script" />
     <option name="LAST_COMMIT_MESSAGE" value="Update Home page script" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="320" y="86" key="#Project_Structure" timestamp="1672049340003">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state x="320" y="86" key="#Project_Structure/0.25.1440.815@0.25.1440.815" timestamp="1672049340003" />
-    <state x="570" y="317" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1672036882320">
-      <screen x="0" y="25" width="1440" height="814" />
-    </state>
-    <state x="570" y="317" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1440.814@0.25.1440.814" timestamp="1672036882320" />
-    <state x="425" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1672049352368">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state x="425" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.815@0.25.1440.815" timestamp="1672049352368" />
-    <state x="201" y="25" key="CommitChangelistDialog2" timestamp="1672050629544">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state x="201" y="25" key="CommitChangelistDialog2/0.25.1440.814@0.25.1440.814" timestamp="1672038062876" />
-    <state x="201" y="25" key="CommitChangelistDialog2/0.25.1440.815@0.25.1440.815" timestamp="1672050629544" />
-    <state width="1398" height="198" key="GridCell.Tab.0.bottom" timestamp="1672051883768">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1672041194330" />
-    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1672051883768" />
-    <state width="1398" height="198" key="GridCell.Tab.0.center" timestamp="1672051883768">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1672041194327" />
-    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1672051883768" />
-    <state width="1398" height="198" key="GridCell.Tab.0.left" timestamp="1672051883767">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1672041194325" />
-    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1672051883767" />
-    <state width="1398" height="198" key="GridCell.Tab.0.right" timestamp="1672051883768">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1672041194328" />
-    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1672051883768" />
-    <state x="208" y="25" key="SettingsEditor" timestamp="1672050842976">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state x="208" y="25" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1672050842976" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1672050645224">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1672038076840" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1672050645224" />
-    <state x="506" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672050635355">
-      <screen x="0" y="25" width="1440" height="815" />
-    </state>
-    <state x="506" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.815@0.25.1440.815" timestamp="1672050635355" />
   </component>
 </project>

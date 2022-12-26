@@ -14,7 +14,11 @@ public class BaseTest {
     @BeforeSuite
     public void beforeSuite() {
         System.setProperty("headless", "false");
-        System.setProperty("webdriver.chrome.driver", "browser-driver/chromedriver");
+        if (System.getProperty("os.name").contains("Windows")) {
+            System.setProperty("webdriver.chrome.driver", "browser-driver/chromedriver-windows.exe");
+        } else {
+            System.setProperty("webdriver.chrome.driver", "browser-driver/chromedriver");
+        }
         String headless = System.getProperty("headless");
 
         ChromeDriverManager.chromedriver();
@@ -31,7 +35,6 @@ public class BaseTest {
     @AfterSuite
     public void afterSuite() {
         if (driver != null) {
-            driver.close();
             driver.quit();
         }
     }
