@@ -25,7 +25,7 @@ public class BaseTest {
         } else {
             driver = new ChromeDriver();
         }
-        driver.get("http://www.facebook.com");
+        driver.get("https://www.saucedemo.com/");
     }
 
     @AfterSuite
