@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69602201-b9cc-4033-b9f5-958032c2b5bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/automation-page-objects/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userHomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="69602201-b9cc-4033-b9f5-958032c2b5bb" name="Default Changelist" comment="Update Home page script">
+      <change afterPath="$PROJECT_DIR$/automation-tests/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/target/classes/base/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/target/classes/base/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-page-objects/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-page-objects/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-tests/automation-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/automation-tests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-tests/target/classes/testCases/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-framework/target/classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/target/classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userHomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userHomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +50,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.userLoginTest.loginTest">
+  <component name="RunManager" selected="TestNG.userHomePageTest.validHomePageTest">
     <configuration name="userHomePageTest.validHomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-tests" />
       <extension name="coverage">
@@ -116,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.userLoginTest.loginTest" />
         <item itemvalue="TestNG.userHomePageTest.validHomePageTest" />
+        <item itemvalue="TestNG.userLoginTest.loginTest" />
         <item itemvalue="TestNG.userLoginTest.loginPage" />
       </list>
     </recent_temporary>
@@ -141,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672038063946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update Home page script">
+      <created>1672050630136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672050630136</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +158,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add automation script" />
     <MESSAGE value="Add chrome driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add chrome driver" />
+    <MESSAGE value="Update Home page script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Home page script" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="86" key="#Project_Structure" timestamp="1672049340003">
@@ -175,34 +174,43 @@
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="425" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.815@0.25.1440.815" timestamp="1672049352368" />
-    <state x="201" y="25" key="CommitChangelistDialog2" timestamp="1672050616238">
+    <state x="201" y="25" key="CommitChangelistDialog2" timestamp="1672050629544">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="201" y="25" key="CommitChangelistDialog2/0.25.1440.814@0.25.1440.814" timestamp="1672038062876" />
-    <state x="201" y="25" key="CommitChangelistDialog2/0.25.1440.815@0.25.1440.815" timestamp="1672050616238" />
-    <state width="1398" height="198" key="GridCell.Tab.0.bottom" timestamp="1672050298150">
+    <state x="201" y="25" key="CommitChangelistDialog2/0.25.1440.815@0.25.1440.815" timestamp="1672050629544" />
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom" timestamp="1672051883768">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1672041194330" />
-    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1672050298150" />
-    <state width="1398" height="198" key="GridCell.Tab.0.center" timestamp="1672050298149">
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1672051883768" />
+    <state width="1398" height="198" key="GridCell.Tab.0.center" timestamp="1672051883768">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1672041194327" />
-    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1672050298149" />
-    <state width="1398" height="198" key="GridCell.Tab.0.left" timestamp="1672050298149">
+    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1672051883768" />
+    <state width="1398" height="198" key="GridCell.Tab.0.left" timestamp="1672051883767">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1672041194325" />
-    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1672050298149" />
-    <state width="1398" height="198" key="GridCell.Tab.0.right" timestamp="1672050298150">
+    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1672051883767" />
+    <state width="1398" height="198" key="GridCell.Tab.0.right" timestamp="1672051883768">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1672041194328" />
-    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1672050298150" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1672038076840">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1672051883768" />
+    <state x="208" y="25" key="SettingsEditor" timestamp="1672050842976">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="208" y="25" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1672050842976" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1672050645224">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1672038076840" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1672050645224" />
+    <state x="506" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672050635355">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="506" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.815@0.25.1440.815" timestamp="1672050635355" />
   </component>
 </project>
