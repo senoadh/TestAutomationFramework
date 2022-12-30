@@ -4,25 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69602201-b9cc-4033-b9f5-958032c2b5bb" name="Default Changelist" comment="Add automation script">
-      <change afterPath="$PROJECT_DIR$/automation-tests/browser-driver/chromedriver-windows.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" beforeDir="false" />
+    <list default="true" id="69602201-b9cc-4033-b9f5-958032c2b5bb" name="Default Changelist" comment="Update Home page script">
+      <change afterPath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/test_userLoginInvalidPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automation-tests/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_822.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation-framework/target/classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/target/classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-page-objects/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-page-objects/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-page-objects/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userHomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userHomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userHomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/test_userHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/userLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-tests/src/main/java/testCases/test_userLoginSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userHomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-tests/target/classes/testCases/userLoginTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestAutomationFramework" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,17 +58,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Seno\IdeaProjects\TestAutomationFramewok\automation-tests\browser-driver" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/automation-tests" />
       <recent name="$PROJECT_DIR$/browser-driver" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Seno\IdeaProjects\TestAutomationFramewok\automation-tests\browser-driver" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.userHomePageTest.validHomePageTest">
-    <configuration name="userHomePageTest.validHomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.test_userHomePage.validHomePageTest">
+    <configuration name="test_userHomePage.validHomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-tests" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +77,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.userHomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="testCases.test_userHomePage" />
       <option name="METHOD_NAME" value="validHomePageTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -81,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="userLoginTest.loginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test_userLoginInvalidPassword.test_userLoginInvalidPassword_Fail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-tests" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +95,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.userLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="testCases.test_userLoginInvalidPassword" />
+      <option name="METHOD_NAME" value="test_userLoginInvalidPassword_Fail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_userLoginSuccess.loginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.test_userLoginSuccess" />
       <option name="METHOD_NAME" value="loginPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -99,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="userLoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test_userLoginSuccess.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-tests" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +131,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.userLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="testCases.test_userLoginSuccess" />
       <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_userLoginSuccess.test_userLogin_success" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.test_userLoginSuccess" />
+      <option name="METHOD_NAME" value="test_userLogin_success" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,13 +160,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.userHomePageTest.validHomePageTest" />
-        <item itemvalue="TestNG.userLoginTest.loginTest" />
-        <item itemvalue="TestNG.userLoginTest.loginPage" />
+        <item itemvalue="TestNG.test_userHomePage.validHomePageTest" />
+        <item itemvalue="TestNG.test_userLoginSuccess.test_userLogin_success" />
+        <item itemvalue="TestNG.test_userLoginInvalidPassword.test_userLoginInvalidPassword_Fail" />
+        <item itemvalue="TestNG.test_userLoginSuccess.loginTest" />
+        <item itemvalue="TestNG.test_userLoginSuccess.loginPage" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -159,17 +202,36 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add automation script" />
     <MESSAGE value="Add chrome driver" />
     <MESSAGE value="Update Home page script" />
     <option name="LAST_COMMIT_MESSAGE" value="Update Home page script" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom" timestamp="1672392060674">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1672392060674" />
+    <state width="1398" height="198" key="GridCell.Tab.0.center" timestamp="1672392060672">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1672392060672" />
+    <state width="1398" height="198" key="GridCell.Tab.0.left" timestamp="1672392060672">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1672392060672" />
+    <state width="1398" height="198" key="GridCell.Tab.0.right" timestamp="1672392060673">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1672392060673" />
   </component>
 </project>

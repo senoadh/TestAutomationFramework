@@ -4,16 +4,21 @@ import base.BaseTest;
 import pages.HomePage;
 import pages.LoginPage;
 import org.testng.annotations.Test;
-public class userLoginTest extends BaseTest {
+public class test_userLoginSuccess extends BaseTest {
 
     @Test
-    public void loginTest() {
+    public void test_userLogin_success() {
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
+
+        String password = "secret_sauce";
+        String username = "standard_user";
+
         loginPage.verifyEmailField();
         loginPage.verifyPasswordField();
         loginPage.verifyLoginButton();
-        loginPage.loginToSauceDemo();
+        loginPage.loginToSauceDemo(username, password);
+
         homePage.verifyHomePageUrl();
 
     }

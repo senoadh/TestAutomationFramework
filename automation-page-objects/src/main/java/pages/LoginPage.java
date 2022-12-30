@@ -3,40 +3,69 @@ package pages;
 import base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+/*
+    In this class, PageFactory framework is used. Web Objects are initialized automatically and stored
+    into WebElements Objects
+ */
 
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
         super(driver);
+        PageFactory.initElements(driver, this);
     }
 
-    private String usernameField = "//*[@data-test='username']";
-    private String passwordField = "//*[@data-test='password']";
-    private String loginButton = "//*[@data-test='login-button']";
+    @FindBy(xpath = "//*[@data-test='username']")
+    WebElement usernameField;
+
+    @FindBy(xpath = "//*[@data-test='password']")
+    WebElement passwordField;
+
+    @FindBy(xpath = "//*[@data-test='login-button']")
+    WebElement loginButton;
+
+    @FindBy(xpath = "//*[@data-test='error']")
+    WebElement loginErrorPopup;
 
     public void verifyEmailField() {
-        driver.findElement(By.xpath(usernameField));
+        assert usernameField.isDisplayed();
     }
 
     public void verifyPasswordField() {
-        driver.findElement(By.xpath(passwordField));
+        assert passwordField.isDisplayed();
     }
 
     public void verifyLoginButton() {
-        driver.findElement(By.xpath(loginButton));
+        assert loginButton.isDisplayed();
     }
 
-    public void setUsername() {
-        String username = "standard_user";
-        driver.findElement(By.xpath(usernameField)).sendKeys(username);
+    public void verifyInvalidUsernameIcon() {
+        driver.findElement(By.xpath("//*[@data-test='username']/following-sibling::*[@data-icon='times-circle']"));
     }
 
-    public void setPassword() {
-        String password = "secret_sauce";
-        driver.findElement(By.xpath(passwordField)).sendKeys(password);
+    public void verifyInvalidPasswordIcon() {
+        driver.findElement(By.xpath("//*[@data-test='password']/following-sibling::*[@data-icon='times-circle']"));
     }
-    public void loginToSauceDemo() {
-        this.setUsername();
-        this.setPassword();
-        driver.findElement(By.xpath(loginButton)).click();
+
+    public void verifyIncorrectPasswordPopup() {
+        assert loginErrorPopup.isDisplayed();
+        String text = loginErrorPopup.getText();
+        assert text.equals("Epic sadface: Username and password do not match any user in this service");
+    }
+
+    public void setUsername(String username) {
+        usernameField.sendKeys(username);
+    }
+
+    public void setPassword(String password) {
+        passwordField.sendKeys(password);
+    }
+    public void loginToSauceDemo(String username, String password) {
+        this.setUsername(username);
+        this.setPassword(password);
+        loginButton.click();
     }
 }
