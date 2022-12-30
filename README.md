@@ -1,5 +1,10 @@
 # Selenium Test Automation Framework
 
-The Automation Framework is adapted from https://devqa.io/develop-test-automation-framework-scratch/ 
 
-This repo consists of Automation Framework that can be used to automate UI Testing for any web page. The framework follows Page-Object Model Design Pattern
+This repo consists of Automation Framework that can be used to automate UI Testing for http://saucedemo.com web page. The framework follows Page-Object Model Design Pattern. Test cases is located under `automation-tests/src/java/main/testCases`
+
+
+References:
+https://devqa.io/develop-test-automation-framework-scratch/ 
+https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html
+
